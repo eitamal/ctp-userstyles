@@ -89,7 +89,8 @@
 
       /* Markdown */
 
-      code:not([class]) {
+      /* Inline code */
+      code:not(pre > code) {
         background-color: @surface0;
       }
 
